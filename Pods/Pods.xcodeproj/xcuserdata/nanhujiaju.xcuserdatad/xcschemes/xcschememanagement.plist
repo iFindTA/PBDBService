@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-PBDB.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-PBDBService.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,6 +27,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>45CB8C5D81090C2EE8ABDF9F687E047E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>462DF8DC8E0458A16B437E0ECE5A739D</key>
 		<dict>
 			<key>primary</key>

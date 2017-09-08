@@ -48,6 +48,16 @@
                ReferencedContainer = "container:PBDBService.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "60C818841F629EE600CEC5D6"
+               BuildableName = "PBDBTests.xctest"
+               BlueprintName = "PBDBTests"
+               ReferencedContainer = "container:PBDBService.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

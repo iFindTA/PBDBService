@@ -16,6 +16,14 @@
 		60C816F41F6260FF00CEC5D6 /* PBDBServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C816F31F6260FF00CEC5D6 /* PBDBServiceTests.m */; };
 		60C816FF1F6260FF00CEC5D6 /* PBDBServiceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C816FE1F6260FF00CEC5D6 /* PBDBServiceUITests.m */; };
 		60C817101F6263E100CEC5D6 /* PBDBService.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C8170F1F6263E100CEC5D6 /* PBDBService.m */; };
+		60C818861F629EE600CEC5D6 /* PBDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C8187D1F629EE500CEC5D6 /* PBDB.framework */; };
+		60C8188D1F629EE600CEC5D6 /* PBDBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C8188C1F629EE600CEC5D6 /* PBDBTests.m */; };
+		60C8188F1F629EE600CEC5D6 /* PBDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 60C8187F1F629EE600CEC5D6 /* PBDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60C818921F629EE600CEC5D6 /* PBDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C8187D1F629EE500CEC5D6 /* PBDB.framework */; };
+		60C818931F629EE600CEC5D6 /* PBDB.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 60C8187D1F629EE500CEC5D6 /* PBDB.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		60C8189B1F629F9600CEC5D6 /* PBDBService.h in Headers */ = {isa = PBXBuildFile; fileRef = 60C8170E1F6263E100CEC5D6 /* PBDBService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60C8189C1F629F9600CEC5D6 /* PBDBService.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C8170F1F6263E100CEC5D6 /* PBDBService.m */; };
+		801F980CD1B79CDF02848720 /* libPods-PBDB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 730904B970458967A69F1489 /* libPods-PBDB.a */; };
 		9372F1B2052AD0AC3D833BA8 /* libPods-PBDBService.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E13F241821527658E3F6F69E /* libPods-PBDBService.a */; };
 /* End PBXBuildFile section */
 
@@ -34,9 +42,46 @@
 			remoteGlobalIDString = 60C816D51F6260FE00CEC5D6;
 			remoteInfo = PBDBService;
 		};
+		60C818871F629EE600CEC5D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60C816CE1F6260FE00CEC5D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60C8187C1F629EE500CEC5D6;
+			remoteInfo = PBDB;
+		};
+		60C818891F629EE600CEC5D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60C816CE1F6260FE00CEC5D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60C816D51F6260FE00CEC5D6;
+			remoteInfo = PBDBService;
+		};
+		60C818901F629EE600CEC5D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60C816CE1F6260FE00CEC5D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60C8187C1F629EE500CEC5D6;
+			remoteInfo = PBDB;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		60C818991F629EE600CEC5D6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				60C818931F629EE600CEC5D6 /* PBDB.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		39410112C0F9186172E3A553 /* Pods-PBDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PBDB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PBDB/Pods-PBDB.debug.xcconfig"; sourceTree = "<group>"; };
+		4A677441921E273CEEA34DEF /* Pods-PBDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PBDB.release.xcconfig"; path = "Pods/Target Support Files/Pods-PBDB/Pods-PBDB.release.xcconfig"; sourceTree = "<group>"; };
 		60C816D61F6260FE00CEC5D6 /* PBDBService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PBDBService.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60C816DA1F6260FE00CEC5D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		60C816DC1F6260FE00CEC5D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,7 +100,14 @@
 		60C817001F6260FF00CEC5D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60C8170E1F6263E100CEC5D6 /* PBDBService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBDBService.h; sourceTree = "<group>"; };
 		60C8170F1F6263E100CEC5D6 /* PBDBService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBDBService.m; sourceTree = "<group>"; };
+		60C8187D1F629EE500CEC5D6 /* PBDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PBDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C8187F1F629EE600CEC5D6 /* PBDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PBDB.h; sourceTree = "<group>"; };
+		60C818801F629EE600CEC5D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60C818851F629EE600CEC5D6 /* PBDBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PBDBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C8188C1F629EE600CEC5D6 /* PBDBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PBDBTests.m; sourceTree = "<group>"; };
+		60C8188E1F629EE600CEC5D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		661F190698254CFFED14C812 /* Pods-PBDBService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PBDBService.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PBDBService/Pods-PBDBService.debug.xcconfig"; sourceTree = "<group>"; };
+		730904B970458967A69F1489 /* libPods-PBDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PBDB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B202BA45F5069C4253E7D99D /* Pods-PBDBService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PBDBService.release.xcconfig"; path = "Pods/Target Support Files/Pods-PBDBService/Pods-PBDBService.release.xcconfig"; sourceTree = "<group>"; };
 		E13F241821527658E3F6F69E /* libPods-PBDBService.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PBDBService.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -65,6 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60C818921F629EE600CEC5D6 /* PBDB.framework in Frameworks */,
 				9372F1B2052AD0AC3D833BA8 /* libPods-PBDBService.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -83,6 +136,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		60C818791F629EE500CEC5D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801F980CD1B79CDF02848720 /* libPods-PBDB.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C818821F629EE600CEC5D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C818861F629EE600CEC5D6 /* PBDB.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -92,6 +161,8 @@
 				60C816D81F6260FE00CEC5D6 /* PBDBService */,
 				60C816F21F6260FF00CEC5D6 /* PBDBServiceTests */,
 				60C816FD1F6260FF00CEC5D6 /* PBDBServiceUITests */,
+				60C8187E1F629EE600CEC5D6 /* PBDB */,
+				60C8188B1F629EE600CEC5D6 /* PBDBTests */,
 				60C816D71F6260FE00CEC5D6 /* Products */,
 				876CF900287EDC5A6F6A24B7 /* Pods */,
 				C8339CF280339D99144BF63F /* Frameworks */,
@@ -104,6 +175,8 @@
 				60C816D61F6260FE00CEC5D6 /* PBDBService.app */,
 				60C816EF1F6260FF00CEC5D6 /* PBDBServiceTests.xctest */,
 				60C816FA1F6260FF00CEC5D6 /* PBDBServiceUITests.xctest */,
+				60C8187D1F629EE500CEC5D6 /* PBDB.framework */,
+				60C818851F629EE600CEC5D6 /* PBDBTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,11 +241,31 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		60C8187E1F629EE600CEC5D6 /* PBDB */ = {
+			isa = PBXGroup;
+			children = (
+				60C8187F1F629EE600CEC5D6 /* PBDB.h */,
+				60C818801F629EE600CEC5D6 /* Info.plist */,
+			);
+			path = PBDB;
+			sourceTree = "<group>";
+		};
+		60C8188B1F629EE600CEC5D6 /* PBDBTests */ = {
+			isa = PBXGroup;
+			children = (
+				60C8188C1F629EE600CEC5D6 /* PBDBTests.m */,
+				60C8188E1F629EE600CEC5D6 /* Info.plist */,
+			);
+			path = PBDBTests;
+			sourceTree = "<group>";
+		};
 		876CF900287EDC5A6F6A24B7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				661F190698254CFFED14C812 /* Pods-PBDBService.debug.xcconfig */,
 				B202BA45F5069C4253E7D99D /* Pods-PBDBService.release.xcconfig */,
+				39410112C0F9186172E3A553 /* Pods-PBDB.debug.xcconfig */,
+				4A677441921E273CEEA34DEF /* Pods-PBDB.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -181,11 +274,24 @@
 			isa = PBXGroup;
 			children = (
 				E13F241821527658E3F6F69E /* libPods-PBDBService.a */,
+				730904B970458967A69F1489 /* libPods-PBDB.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		60C8187A1F629EE500CEC5D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C8188F1F629EE600CEC5D6 /* PBDB.h in Headers */,
+				60C8189B1F629F9600CEC5D6 /* PBDBService.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		60C816D51F6260FE00CEC5D6 /* PBDBService */ = {
@@ -198,10 +304,12 @@
 				60C816D41F6260FE00CEC5D6 /* Resources */,
 				A5031F712EEF67AA4FE35482 /* [CP] Embed Pods Frameworks */,
 				1EB697568D9C643FB3E7EF50 /* [CP] Copy Pods Resources */,
+				60C818991F629EE600CEC5D6 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				60C818911F629EE600CEC5D6 /* PBXTargetDependency */,
 			);
 			name = PBDBService;
 			productName = PBDBService;
@@ -244,6 +352,45 @@
 			productReference = 60C816FA1F6260FF00CEC5D6 /* PBDBServiceUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		60C8187C1F629EE500CEC5D6 /* PBDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60C818981F629EE600CEC5D6 /* Build configuration list for PBXNativeTarget "PBDB" */;
+			buildPhases = (
+				8555D99558711432F6A7608E /* [CP] Check Pods Manifest.lock */,
+				60C818781F629EE500CEC5D6 /* Sources */,
+				60C818791F629EE500CEC5D6 /* Frameworks */,
+				60C8187A1F629EE500CEC5D6 /* Headers */,
+				60C8187B1F629EE500CEC5D6 /* Resources */,
+				44BE173BB45161E1F081906B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PBDB;
+			productName = PBDB;
+			productReference = 60C8187D1F629EE500CEC5D6 /* PBDB.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		60C818841F629EE600CEC5D6 /* PBDBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60C8189A1F629EE600CEC5D6 /* Build configuration list for PBXNativeTarget "PBDBTests" */;
+			buildPhases = (
+				60C818811F629EE600CEC5D6 /* Sources */,
+				60C818821F629EE600CEC5D6 /* Frameworks */,
+				60C818831F629EE600CEC5D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60C818881F629EE600CEC5D6 /* PBXTargetDependency */,
+				60C8188A1F629EE600CEC5D6 /* PBXTargetDependency */,
+			);
+			name = PBDBTests;
+			productName = PBDBTests;
+			productReference = 60C818851F629EE600CEC5D6 /* PBDBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -270,6 +417,17 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 60C816D51F6260FE00CEC5D6;
 					};
+					60C8187C1F629EE500CEC5D6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = M8K6A7692X;
+						ProvisioningStyle = Automatic;
+					};
+					60C818841F629EE600CEC5D6 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = M8K6A7692X;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 60C816D51F6260FE00CEC5D6;
+					};
 				};
 			};
 			buildConfigurationList = 60C816D11F6260FE00CEC5D6 /* Build configuration list for PBXProject "PBDBService" */;
@@ -288,6 +446,8 @@
 				60C816D51F6260FE00CEC5D6 /* PBDBService */,
 				60C816EE1F6260FF00CEC5D6 /* PBDBServiceTests */,
 				60C816F91F6260FF00CEC5D6 /* PBDBServiceUITests */,
+				60C8187C1F629EE500CEC5D6 /* PBDB */,
+				60C818841F629EE600CEC5D6 /* PBDBTests */,
 			);
 		};
 /* End PBXProject section */
@@ -317,6 +477,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		60C8187B1F629EE500CEC5D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C818831F629EE600CEC5D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -333,6 +507,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PBDBService/Pods-PBDBService-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44BE173BB45161E1F081906B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PBDB/Pods-PBDB-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8555D99558711432F6A7608E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		9B775FFB5684B4235938DD9F /* [CP] Check Pods Manifest.lock */ = {
@@ -395,6 +599,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		60C818781F629EE500CEC5D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C8189C1F629F9600CEC5D6 /* PBDBService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60C818811F629EE600CEC5D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C8188D1F629EE600CEC5D6 /* PBDBTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -407,6 +627,21 @@
 			isa = PBXTargetDependency;
 			target = 60C816D51F6260FE00CEC5D6 /* PBDBService */;
 			targetProxy = 60C816FB1F6260FF00CEC5D6 /* PBXContainerItemProxy */;
+		};
+		60C818881F629EE600CEC5D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60C8187C1F629EE500CEC5D6 /* PBDB */;
+			targetProxy = 60C818871F629EE600CEC5D6 /* PBXContainerItemProxy */;
+		};
+		60C8188A1F629EE600CEC5D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60C816D51F6260FE00CEC5D6 /* PBDBService */;
+			targetProxy = 60C818891F629EE600CEC5D6 /* PBXContainerItemProxy */;
+		};
+		60C818911F629EE600CEC5D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60C8187C1F629EE500CEC5D6 /* PBDB */;
+			targetProxy = 60C818901F629EE600CEC5D6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -600,6 +835,76 @@
 			};
 			name = Release;
 		};
+		60C818941F629EE600CEC5D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39410112C0F9186172E3A553 /* Pods-PBDB.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = M8K6A7692X;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PBDB/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanhu.PBDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		60C818951F629EE600CEC5D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A677441921E273CEEA34DEF /* Pods-PBDB.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = M8K6A7692X;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PBDB/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanhu.PBDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		60C818961F629EE600CEC5D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M8K6A7692X;
+				INFOPLIST_FILE = PBDBTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanhu.PBDBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PBDBService.app/PBDBService";
+			};
+			name = Debug;
+		};
+		60C818971F629EE600CEC5D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M8K6A7692X;
+				INFOPLIST_FILE = PBDBTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nanhu.PBDBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PBDBService.app/PBDBService";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -635,6 +940,24 @@
 			buildConfigurations = (
 				60C8170A1F6260FF00CEC5D6 /* Debug */,
 				60C8170B1F6260FF00CEC5D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60C818981F629EE600CEC5D6 /* Build configuration list for PBXNativeTarget "PBDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C818941F629EE600CEC5D6 /* Debug */,
+				60C818951F629EE600CEC5D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60C8189A1F629EE600CEC5D6 /* Build configuration list for PBXNativeTarget "PBDBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60C818961F629EE600CEC5D6 /* Debug */,
+				60C818971F629EE600CEC5D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

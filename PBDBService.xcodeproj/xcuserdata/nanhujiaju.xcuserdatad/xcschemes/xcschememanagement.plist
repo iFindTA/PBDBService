@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>PBDB.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>PBDBService.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,16 @@
 			<true/>
 		</dict>
 		<key>60C816F91F6260FF00CEC5D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>60C8187C1F629EE500CEC5D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>60C818841F629EE600CEC5D6</key>
 		<dict>
 			<key>primary</key>
 			<true/>
