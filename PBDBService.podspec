@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "PBDBService"
-  s.version      = "1.0.0"
+  s.version      = "1.1.0"
   s.summary      = "database service for iOS development."
   s.description  = "database service for FLK.Inc iOS Developers, such as SQLCipher/FTS etc."
   s.homepage     = "https://github.com/iFindTA"
@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   
   s.source       = { :git => "https://github.com/iFindTA/PBDBService.git", :tag => "#{s.version}" }
-  s.source_files  = "PBDBServicePro/Pod/Classes/*.{h,m}"
-  s.public_header_files = "PBDBServicePro/Pod/Classes/*.h"
+  s.source_files  = "PBDBService/Pod/Classes/*.{h,m}"
+  s.public_header_files = "PBDBService/Pod/Classes/*.h"
   
   #s.resources    = "FLKNetServicePro/FLKNetService/Certs/*.cer"
   
