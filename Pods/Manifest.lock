@@ -1,0 +1,23 @@
+PODS:
+  - FMDB/FTS (2.6.2):
+    - FMDB/standard
+  - FMDB/SQLCipher (2.6.2):
+    - SQLCipher
+  - FMDB/standard (2.6.2)
+  - SQLCipher (3.4.1):
+    - SQLCipher/standard (= 3.4.1)
+  - SQLCipher/common (3.4.1)
+  - SQLCipher/standard (3.4.1):
+    - SQLCipher/common
+
+DEPENDENCIES:
+  - FMDB/FTS (~> 2.6.2)
+  - FMDB/SQLCipher (~> 2.6.2)
+
+SPEC CHECKSUMS:
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  SQLCipher: 43d12c0eb9c57fb438749618fc3ce0065509a559
+
+PODFILE CHECKSUM: 4b68c9ac50005a19cd8a5e757dcd2149181bd760
+
+COCOAPODS: 1.1.1
